@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/************************************/
+/*************************  H E A D E R ********************/
+header{
+    width: 1440px;
+    height: 80px;
+
+}
+
+.logo{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+    }
+
+ul{
+    display: inline;
+    margin-left: 550px;
+    margin-top: 30px;
+    position: absolute;
+    width: 590px;
+    height: 23px;
+    align-items: center;
+
+}
+
+a{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 40px ;
+    font-weight: bold;
+
+    
+}
+
+button{
+    position: absolute;
+    width: 123px;
+    height: 61px;
+    left: 1308px;
+    top: 22px;
+    font-family: 'roboto' , sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 28px;
+    background-color: #FF0000;
+    border-radius: 60px;
+    border-color: #FF0000 ;
+    
+    
+     
+}
+
+/************************************/
+/*************************  BANNER ********************/
+
+.banner{
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    background-color: #21734C;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.figure{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 80px;
+    top: 130px;
+    margin-left: 80px;
+}
+.banner figure img{
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.texto_banner{
+    position: absolute;
+width: 549px;
+height: 303px;
+left: 790px;
+top: 80px;
+text-align: justify;
+
+}
+
+.texto_banner h1{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 40px ;
+    text-align: center;
+
+}
+
+.texto_banner p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 30px ;
+    font-style: normal;
+    margin-top: 50px;
+}
+
+.texto_banner a{
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -10px;
+
+
+
+}
+
+
+/************************************/
+/*************************  DESTAQUE ********************/
+
+.destaque{
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    top: 580px;
+    border: 1px solid red
+        
+}
+
+.img_destaque{
+    float: left;
+    width: 230px;
+    top: 500px;
+    left: 30px;
+    padding-left: 25px;
+
+
+}
+
+.img_destaque figure img{
+    margin: 250px 0px 0px 0px;
+    width: 230px;
+    height: 150px;
+}
+
+figcaption{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 24px;
+    font-style: normal;
+    margin-left: 12px;
+
+}
+
+.texto_destaque{
+    position: absolute;
+    width: 970px;
+    height: 106px;
+    left: 235px;
+}
+
+.texto_destaque h1{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.texto_destaque p{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-size-adjust: 24px;
+    font-style: normal;
+}
+
+/************************************/
+/*************************  NOVIDADES ********************/
+
+.novidades{
+    position: absolute;
+width: 1440px;
+height: 500px;
+left: 0px;
+top: 1080px;
+
+background: #4D0873;
+}
+
+.novidades img{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 770px;
+    margin-top: 50px;
+    
+        
+}
+
+.texto_novidades{
+    position: absolute;
+    width: 550px;
+    height: 280px;
+    margin-left: 100px;
+    margin-top: 100px;
+
+
+
+
+}
+
+.texto_novidades h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+
+.texto_novidades p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: white;
+    margin-top: 50px;
+    text-align: justify;
+
+    
+}
+
+.texto_novidades a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: normal;
+    color: white;
+    text-align: justify;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -10px;
+
+}
+
+/************************************/
+/*************************  FOOTER ********************/
+
+.rodape{
+    position: absolute;
+    width: 1440px;
+    height: 350px;
+    border: 1px solid red;
+    margin-top: 1500px;
+
+}
+
+.logo_rodape img{
+    position: absolute;
+    width: 165px;
+    height: auto;
+    margin-top: 155px;
+    margin-left: 110px;
+
+}
+
+.info_contato{
+    position: absolute;
+    width: 172px;
+    height: 228px;
+    margin-top: 57px;
+    margin-left: 450px;
+    
+}
+
+.email{
+    font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    padding-bottom: 57px;
+
+}
+
+.endereco{
+    font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    padding-bottom: 57px;
+}
+
+.telefone{
+    font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    padding-bottom: 57px;
+}
+
+.redes-sociais{
+    position: absolute;
+width: 488px;
+height: 103px;
+margin-top: 102px;
+margin-left: 830px;
+
+
+}
+
+.legendas-sociais{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    position: absolute;
+    width: 400px;
+    height: 26px;
+    margin-top: 50px;
+    margin-left: 830px;
+}
+
+
+.menu_rodape{
+    border: 1px solid red;
+    position: absolute;
+    width: 120px;
+    height: 150px;
+    left: 890px;
+    top: 200px;
+}
+
+li{
+    list-style-type: none;
+
+}
+
+.legendas-sociais{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 830px;
+    height: 200px;
+
+
+}
